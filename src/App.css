@@ -1,0 +1,22 @@
+* {
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+input:hover,
+select:hover {
+  cursor: pointer;
+}
+
+
+/* .hoverBg:hover
+{
+  background-color: green;
+}
+.bg-red-400{
+  background-color: lightblue;
+}
+.bg-red-600{
+  background-color: blue;
+} */
