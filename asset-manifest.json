@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/swagEditor/static/css/main.e2e18479.chunk.css",
+    "main.js": "/swagEditor/static/js/main.57c226d8.chunk.js",
+    "main.js.map": "/swagEditor/static/js/main.57c226d8.chunk.js.map",
+    "runtime-main.js": "/swagEditor/static/js/runtime-main.83761d33.js",
+    "runtime-main.js.map": "/swagEditor/static/js/runtime-main.83761d33.js.map",
+    "static/js/2.735080b1.chunk.js": "/swagEditor/static/js/2.735080b1.chunk.js",
+    "static/js/2.735080b1.chunk.js.map": "/swagEditor/static/js/2.735080b1.chunk.js.map",
+    "index.html": "/swagEditor/index.html",
+    "precache-manifest.711625d8e29520ad92d70c83a0b8c70f.js": "/swagEditor/precache-manifest.711625d8e29520ad92d70c83a0b8c70f.js",
+    "service-worker.js": "/swagEditor/service-worker.js",
+    "static/css/main.e2e18479.chunk.css.map": "/swagEditor/static/css/main.e2e18479.chunk.css.map",
+    "static/js/2.735080b1.chunk.js.LICENSE.txt": "/swagEditor/static/js/2.735080b1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83761d33.js",
+    "static/js/2.735080b1.chunk.js",
+    "static/css/main.e2e18479.chunk.css",
+    "static/js/main.57c226d8.chunk.js"
+  ]
+}
