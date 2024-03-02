@@ -3,6 +3,8 @@ class SwagEditor extends Component {
   state = {
     player: 0,
     frame: 0,
+    backgroundupload: false,
+    playerUpload: false,
     position: "top",
     px: 0,
     py: 0,
@@ -133,6 +135,7 @@ class SwagEditor extends Component {
         document.getElementById(imgId).src = e.target.result;
       };
       reader.readAsDataURL(input.files[0]);
+      this.setState({[inputId]: true});
     }
   }
 
@@ -222,7 +225,7 @@ class SwagEditor extends Component {
   };
 
   render() {
-    const { start, customSize, scaleSize, backgroundColor, textColor } = this.state;
+    const { start, customSize, scaleSize, backgroundColor, textColor, backgroundupload, playerUpload } = this.state;
     const customStyle = [
       {
         backgroundColor: backgroundColor, color: textColor
@@ -248,7 +251,7 @@ class SwagEditor extends Component {
               <label className="bg-purple-800 hoverBg flex flex-col items-center px-4 py-2 bg-transparent  cursor-pointer outline-none focus:outline-none  hover:text-blue-100 w-full">
                 <svg
                   className="w-8 h-8"
-                  fill="currentColor"
+                  fill={backgroundupload ? 'lightgreen':"currentColor"}
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                 >
@@ -257,10 +260,10 @@ class SwagEditor extends Component {
                 <input
                   className="hidden"
                   type="file"
-                  id="backgrounduploade"
+                  id="backgroundupload"
                   onChange={() => {
                     this.imageImportFunction(
-                      "backgrounduploade",
+                      "backgroundupload",
                       "backgoundImg"
                     );
                   }}
@@ -281,7 +284,7 @@ class SwagEditor extends Component {
                 <label className="flex flex-col items-center px-4 py-2  bg-transparent  cursor-pointer outline-none focus:outline-none  hover:text-blue-100 w-full">
                   <svg
                     className="w-8 h-8"
-                    fill="currentColor"
+                    fill={playerUpload ? 'lightgreen':"currentColor"}
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                   >
@@ -290,9 +293,9 @@ class SwagEditor extends Component {
                   <input
                     className="hidden"
                     type="file"
-                    id="playerUploade"
+                    id="playerUpload"
                     onChange={() => {
-                      this.imageImportFunction("playerUploade", "playerImg");
+                      this.imageImportFunction("playerUpload", "playerImg");
                     }}
                   />
                 </label>
