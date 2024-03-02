@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/swagEditor/static/css/main.dc8e3113.css",
-    "main.js": "/swagEditor/static/js/main.78868507.js",
+    "main.js": "/swagEditor/static/js/main.c0c1bc5f.js",
     "index.html": "/swagEditor/index.html",
     "main.dc8e3113.css.map": "/swagEditor/static/css/main.dc8e3113.css.map",
-    "main.78868507.js.map": "/swagEditor/static/js/main.78868507.js.map"
+    "main.c0c1bc5f.js.map": "/swagEditor/static/js/main.c0c1bc5f.js.map"
   },
   "entrypoints": [
     "static/css/main.dc8e3113.css",
-    "static/js/main.78868507.js"
+    "static/js/main.c0c1bc5f.js"
   ]
 }
