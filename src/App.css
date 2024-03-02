@@ -9,7 +9,9 @@ select:hover {
   cursor: pointer;
 }
 
-
+.min-w-200{
+  min-width: 130px;
+}
 /* .hoverBg:hover
 {
   background-color: green;
